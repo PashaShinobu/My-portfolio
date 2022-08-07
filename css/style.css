@@ -3,9 +3,6 @@ font-family: 'Inter', sans-serif;
 }
 
 .navbar {
-    max-width: 870px;
-    width: 100%;
-    margin: auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -28,4 +25,85 @@ font-family: 'Inter', sans-serif;
 
 .nav-link.active {
     font-weight: 700;
+    
+}
+
+.container {
+    max-width: 870px;
+    width: 100%;
+    margin: auto;
+}
+
+.header-photo img {
+    max-width: 414px;
+    width: 100%;
+    max-height: 480px;
+    height: 100%;
+}
+
+.header {
+    padding: 70px 0;
+    display: flex;
+    align-items: center;
+}
+
+.header-text {
+    margin-left: 27px;
+}
+
+.header-strong {
+    font-weight: 700;
+    font-size: 48px;
+    Line-height: 125%;
+}
+
+.header-heading {
+    font-weight: 700;
+    font-size: 24px;
+    Line-height: 135%;
+    /* or 32px */
+
+    letter-spacing: -0.02em;
+    margin-top: 8px;
+    margin-bottom: 24px;
+}
+
+.header-primary {
+    color: #BF7506;
+}
+
+.social-list {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    align-items: center;
+}
+
+.social-link {
+    display: inline-block;
+    padding: 8px;
+}
+
+.social-links {
+    display: flex;
+    align-items: center;
+}
+
+.cv-download {
+    margin-left: 55px;
+    pad: 7px 8px;
+    margin-left: 55px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    color: #211b12;
+    border-bottom: 2px solid #BF7506;
+
+}
+
+.cv-icon {
+    margin-right: 4px;
 }
